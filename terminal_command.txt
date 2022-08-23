@@ -1,0 +1,25 @@
+Installing pip
+-> py -m pip install --upgrade pip
+-> py -m pip --version
+
+Installing virtualenv
+->py -m pip install --user virtualenv
+
+Creating a virtual environment
+->py -m venv env
+
+Activating a virtual environment
+.\env\Scripts\activate
+
+Now you should be able to install package  
+->py -m pip install requests
+
+To Deactivate
+->deactivate
+
+Using requirements files
+->py -m pip install -r requirements.txt
+
+Freezing dependencies
+->py -m pip freeze
+

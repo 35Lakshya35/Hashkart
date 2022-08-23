@@ -1,0 +1,10 @@
+Flask
+Flask-Cors
+Flask-JWT
+Flask-Restful
+Flask-SQLAlchemy
+flask-swagger-ui
+coverage
+pytest
+pytest-cov
+requests
